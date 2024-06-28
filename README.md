@@ -1,16 +1,34 @@
-# visusoft_task
+# Photo Frames App
 
-A new Flutter project.
+## Overview
+This is a demo photo frames application built with Flutter. The app allows users to select photos, apply various frames, use gestures for photo manipulation, and save or share the framed photos. The app includes a splash screen that displays when the app is launched.
 
-## Getting Started
+## Features
+- Splash Screen
+- Photo Selection
+- Frame Selection
+- Photo Editing with Gestures
+- Save & Share
 
-This project is a starting point for a Flutter application.
+## Setup Instructions
+1. Clone the repository.
+2. Run `flutter pub get` to install dependencies.
+3. Set up Firebase for your project and add the `google-services.json` or `GoogleService-Info.plist` to the project.
+4. Run the app using `flutter run`.
 
-A few resources to get you started if this is your first Flutter project:
+## Usage Guide
+- Select a photo from the gallery.
+- Choose a frame from the available options.
+- Use gestures to manipulate the photo within the frame.
+- Save or share the framed photo.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Code Structure
+- `main.dart`: Entry point of the application.
+- `splash_screen.dart`: Implements the splash screen.
+- `photo_frame_page.dart`: Main page for photo selection, framing, and editing.
+- `photo_editor.dart`: Widget for photo editing with gestures.
+- `frame_selector.dart`: Widget for frame selection.
+- `firebase_service.dart`: Service to handle frame downloads from Firebase.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+This project is licensed under the MIT License.
