@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430854178948",
+    "project_id": "visusofttask",
+    "storage_bucket": "visusofttask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430854178948:android:af6650da0be352d9b55ad1",
+        "android_client_info": {
+          "package_name": "com.example.visusoft_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdgtUMmzGFaCde40irWcwdw1T63MxZHck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
